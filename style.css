@@ -1,0 +1,11 @@
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+    /* background-color: blueviolet; */
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+}
