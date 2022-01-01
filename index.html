@@ -6,12 +6,25 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
-    <body>
+    <body class="bd">
         <header class="header">
             <h1 class="title">Sketchpad(brower version)</h1>
         </header>
         <main class="main">
             <section class="sec1">
+                <div class="button_slide slide_down" id="randomColorChange">Rainbow Mode</div>
+                <di class="button_slide slide_down" id="clear">Clear</di>
+                <div class="size">
+                    <h3 id="sizeStatus">Size Selection: 16 x 16</h3>
+                    <div id="rangeSelection">
+                        <div>MIN(1)</div>
+                        <input id="sizeSlider" type="range" min="1" max="100" step="1" value="16">
+                        <div>MAX(100)</div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="sec2">
                 <div id="grid" class="grid"></div>
             </section>
         </main>
